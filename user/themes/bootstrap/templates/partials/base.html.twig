@@ -40,4 +40,13 @@
       {% endblock %}
 
       {% endblock head %}
-    </head> 
+    </head>
+
+    <body>
+
+      {# include the header + navigation #}
+      {% include 'partials/header.html.twig' %}
+
+      <div class="container">
+        {% block content %}{% endblock %}
+      </div> 
