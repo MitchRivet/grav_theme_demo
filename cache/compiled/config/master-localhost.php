@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\Config',
-    'timestamp' => 1447454897,
-    'checksum' => '3ffac82f5ead4ae70491ac6a8dc9b962',
+    'timestamp' => 1447960865,
+    'checksum' => '9aeb44bf6b90a716fffd7178644803ad',
     'data' => [
         'streams' => [
             'schemes' => [
@@ -157,6 +157,15 @@ return [
                         'visitors' => 20
                     ]
                 ]
+            ],
+            'bootstrapper' => [
+                'enabled' => true,
+                'always_load' => false,
+                'use_cdn' => false,
+                'mode' => 'production',
+                'load_core_css' => true,
+                'load_theme_css' => true,
+                'load_core_js' => true
             ],
             'email' => [
                 'enabled' => true,
@@ -484,7 +493,7 @@ return [
                 'alias' => '/home'
             ],
             'pages' => [
-                'theme' => 'antimatter',
+                'theme' => 'bootstrap',
                 'order' => [
                     'by' => 'default',
                     'dir' => 'asc'

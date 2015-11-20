@@ -1,36 +1,36 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\Config',
-    'checksum' => '9669326d3686cbfad4f9cfd0ed5f0e94:286e4e2b3a33516ddc0162a61598c194',
+    'checksum' => '954dd8f8a3b8bf519a43716dac2cf5b1:5e86ddf04e1bc7e53fedcb4a2b86b956',
     'files' => [
         'system/languages' => [
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1446207158
+                'modified' => 1447956487
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1446207158
+                'modified' => 1447956487
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1446207158
+                'modified' => 1447956487
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1446207158
+                'modified' => 1447956487
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1446207158
+                'modified' => 1447956487
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1446207158
+                'modified' => 1447956487
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1446207158
+                'modified' => 1447956487
             ]
         ]
     ],
@@ -480,6 +480,17 @@ return [
                 'WRAPPED_SITE_HELP' => 'For themes/plugins to know if Grav is wrapped by another platform',
                 'FALLBACK_TYPES' => 'Allowed fallback types',
                 'FALLBACK_TYPES_HELP' => 'Allowed file types that can be found if accessed via Page route'
+            ],
+            'PLUGIN_BOOTSTRAPPER' => [
+                'STATUS' => 'Plugin status',
+                'ALWAYS_LOAD' => 'Always load',
+                'ALWAYS_LOAD_HELP' => 'If disabled, let the theme decide to load the bootstrap plugin',
+                'USE_CDN' => 'Use Bootstrap CDN',
+                'USE_CDN_HELP' => 'Load Bootstrap\'s CSS and JavaScript from CDN',
+                'MODE' => 'Mode',
+                'LOAD_CORE_CSS' => 'Load Core CSS',
+                'LOAD_THEME_CSS' => 'Load Theme CSS',
+                'LOAD_CORE_JS' => 'Load Core JS'
             ],
             'FORM_PLUGIN' => [
                 'NOT_VALIDATED' => 'Form not validated. One or more required fields are missing.'
@@ -2819,6 +2830,17 @@ Path: `%2$s`
                 'REDIRECT_DEFAULT_CODE_HELP' => 'Статус заголовка HTTP при перенаправлении URL',
                 'IGNORE_HIDDEN' => 'Игнорировать скрытые',
                 'IGNORE_HIDDEN_HELP' => 'Игнорировать все скрытые файлы и папки'
+            ],
+            'PLUGIN_BOOTSTRAPPER' => [
+                'STATUS' => 'Состояние плагина',
+                'ALWAYS_LOAD' => 'Загружать всегда',
+                'ALWAYS_LOAD_HELP' => 'Если отключено, загрузка плагина определяется темой оформления',
+                'USE_CDN' => 'Использовать Bootstrap CDN',
+                'USE_CDN_HELP' => 'Загружать Bootstrap CSS и JavaScript из CDN',
+                'MODE' => 'Режим',
+                'LOAD_CORE_CSS' => 'Загружать основной CSS',
+                'LOAD_THEME_CSS' => 'Загружать CSS темы оформления',
+                'LOAD_CORE_JS' => 'Загружать основной JS'
             ],
             'INFLECTOR_IRREGULAR' => [
                 'person' => 'люди',
